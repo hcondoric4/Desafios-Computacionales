@@ -3,8 +3,7 @@
 Este proyecto consiste en una plataforma web interactiva desarrollada para resolver dos casos prácticos de naturaleza física y probabilística mediante la aplicación de funciones lógicas en JavaScript.
 
 ## Enlace de la Aplicación en Producción
-La demostración en vivo de la aplicación se encuentra disponible en la siguiente dirección: [Insertar aquí la URL de GitHub Pages]
-
+La demostración en vivo de la aplicación se encuentra disponible en la siguiente dirección: https://hcondoric4.github.io/Desafios-Computacionales/
 ## Descripción de los Módulos
 
 * **Ejercicio 1: Simulador de Transferencia de Calor (Ley de Enfriamiento)**
