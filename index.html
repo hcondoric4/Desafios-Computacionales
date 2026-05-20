@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Simuladores Matemáticos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h2>Transferencia de Calor</h2>
+    <form onsubmit="event.preventDefault(); calcularCalor();">
+        <label for="t0">Temperatura Inicial (T0):</label>
+        <input type="number" id="t0" value="120" required>
+        
+        <label for="ts">Temperatura Entorno (Ts):</label>
+        <input type="number" id="ts" value="38" required>
+        
+        <label for="k">Constante (k):</label>
+        <input type="number" id="k" value="0.45" step="any" required>
+        
+        <label for="t">Tiempo en horas (t):</label>
+        <input type="number" id="t" value="3" required>
+        
+        <button type="submit">Calcular Temperatura</button>
+    </form>
+    <div id="res-calor" class="resultado"></div>
+
+    <h2>Calculador de Combinaciones</h2>
+    <form onsubmit="event.preventDefault(); calcularCombinaciones();">
+        <h3>Grupo 1</h3>
+        <label for="n1">n1:</label> <input type="number" id="n1" value="59" required>
+        <label for="r1">r1:</label> <input type="number" id="r1" value="5" required>
+        
+        <h3>Grupo 2</h3>
+        <label for="n2">n2:</label> <input type="number" id="n2" value="35" required>
+        <label for="r2">r2:</label> <input type="number" id="r2" value="1" required>
+        
+        <button type="submit">Calcular Combinaciones</button>
+    </form>
+    <div id="res-comb" class="resultado"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
